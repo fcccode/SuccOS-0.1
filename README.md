@@ -3,15 +3,14 @@
 SuccOS is a minimal 16 bit, real mode `DOS` like operating system written in pure [NASM](http://www.nasm.us/index.php) assemby!
 Please know that his is in early devolopment so many things must be done!
 
-## Features
 
-**System:**
+## Bootloader
+  <img src="prog/bios.png?raw=true " width="600"/>
 
-- Bootloader
-- Kernel
-- Fat filesystem support `WIP`
-
-**Commands:**
+## Kernel
+  <img src="prog/kernel.png?raw=true " width="600"/>
+  
+## Commands
 
 - `help` -- Show commands.
 - `dir`  -- Display root directory.
@@ -33,5 +32,10 @@ Please know that his is in early devolopment so many things must be done!
 
 ## Building
 
-Currenly i have an elaberate batch script set up for the current building of this project.
+**Programs used:**
+- [NASM](http://www.nasm.us/index.php) -- `Best assembler ever :)`
+- [dd](http://uranus.chrysocome.net/linux/rawwrite/dd-old.htm) -- `Coppy bootloader into disk image`
+- [imdisk](http://www.ltr-data.se/opencode.html/) -- `Create virtural floppy disk images`
+- [QEMU](http://www.qemu.org/) -- `Virtural image emulator (can use virtural box insted)`
+- [RadASM](http://www.softpedia.com/get/Programming/File-Editors/RadASM.shtml) -- `Great assemby editor!`
 
